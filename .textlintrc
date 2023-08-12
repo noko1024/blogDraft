@@ -1,0 +1,20 @@
+{
+  "plugins": {
+    "@textlint/markdown": {
+      "extensions": [
+        ".md"
+      ]
+    }
+  },
+  "filters": {
+    "comments": true,
+    "allowlist": {
+      "allow": [
+        "釧路工業高等専門学校"
+      ]
+    }
+  },
+  "rules": {
+    "preset-ja-technical-writing": true
+  }
+}
